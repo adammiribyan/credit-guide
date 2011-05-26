@@ -1,0 +1,13 @@
+<% render "layout", :title => "Руководство по настройке компьютера — Магазин Кредитов" do %>
+  <h1>Руководство по настройке компьютера</h1>
+  <div class="content">
+    <ol class="sections">
+      <li><a href="#ubuntu">Ubuntu Linux</a></li>
+      <li><a href="#openvpn">OpenVPN</a></li>
+      <li><a href="#notes">Хозяйке на заметку</a></li>
+    </ol>
+    <div id="ubuntu"><%= render "sections/ubuntu" %></div>
+    <div id="openvpn"><%= render "sections/openvpn" %></div>
+    <div id="notes"><%= render "sections/notes" %></div>
+  </div>
+<% end %>
