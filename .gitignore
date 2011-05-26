@@ -1,0 +1,5 @@
+.bundle
+.redcar
+.sass-cashe
+log/*.log
+tmp/**/*
